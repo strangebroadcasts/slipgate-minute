@@ -9,6 +9,10 @@ items.qc
 weapons.qc
 world.qc
 client.qc
+
+missiontimer.qc
+blink.qc
+
 player.qc
 monsters.qc
 doors.qc

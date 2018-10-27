@@ -690,4 +690,11 @@ float (entity e, float healamount, float ignore) T_Heal; // health function
 
 float(entity targ, entity inflictor) CanDamage;
 
+// missiontimer.qc
+float MissionTimer;
+void() InitializeMissionTimer;
+void(float msn_time) AddMissionTime;
+void() UpdateMissionTimer;
+
+
 

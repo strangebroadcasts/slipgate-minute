@@ -61,6 +61,8 @@ void() monster_death_use =
 
 	activator = self.enemy;
 	SUB_UseTargets ();
+	
+	AddMissionTime(10.0);
 };
 
 

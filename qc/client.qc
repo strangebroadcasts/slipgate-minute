@@ -91,7 +91,9 @@ void() DecodeLevelParms =
 	self.ammo_rockets = parm6;
 	self.ammo_cells = parm7;
 	self.weapon = parm8;
-	self.armortype = parm9 * 0.01;
+	self.armortype = parm9 * 0.01; 
+	
+	InitializeMissionTimer();
 };
 
 /*
@@ -953,6 +955,8 @@ void() PlayerPreThink =
 		self.weapon = W_BestWeapon ();
 		W_SetCurrentAmmo ();
 	}
+	
+	UpdateMissionTimer();
 };
 	
 /*
@@ -1167,7 +1171,7 @@ void() ClientConnect =
 {
 	bprint (self.netname);
 	bprint (" entered the game\n");
-	centerprint(self, "WELCOME TO MAGNESIUM MOD!\n");
+	
 	
 // a client connecting during an intermission can cause problems
 	if (intermission_running)
