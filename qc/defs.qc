@@ -696,5 +696,23 @@ void() InitializeMissionTimer;
 void(float msn_time) AddMissionTime;
 void() UpdateMissionTimer;
 
+float OgreDeathTime = 5.0;
+float DemonDeathTime = 5.0;
+float ShamblerDeathTime = 5.0;
+float KnightDeathTime = 5.0;
+float SoldierDeathTime = 5.0;
+float WizardDeathTime = 5.0;
+float DogDeathTime = 5.0;
+float ZombieDeathTime = 5.0;
+float BossDeathTime = 5.0;
+float BabyDeathTime = 5.0;
+float OgreDeathTime = 5.0;
+float HellKnightDeathTime = 5.0;
+float FishDeathTime = 5.0;
+float ShalrathDeathTime = 5.0;
+float EnforcerDeathTime = 5.0;
+float OldOneDeathTime = 5.0;
 
-
+float MissionTimeMultiplierEasy = 2.0;
+float MissionTimeMultiplierMedium = 1.5;
+float MissionTimeMultiplierHard = 1.0;
