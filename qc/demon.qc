@@ -152,6 +152,7 @@ void()	demon1_die9		=[	$death9,		demon1_die9 ] {};
 
 void() demon_die =
 {
+	AddMissionTime(DemonDeathTime);
 // check for gib
 	if (self.health < -80)
 	{

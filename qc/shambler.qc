@@ -305,6 +305,7 @@ void() sham_death11     =[      $death11,      sham_death11    ] {};
 
 void() sham_die =
 {
+	AddMissionTime(ShamblerDeathTime);
 // check for gib
 	if (self.health < -60)
 	{

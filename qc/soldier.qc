@@ -220,6 +220,7 @@ void()	army_cdie11	=[	$deathc11,	army_cdie11	] {};
 
 void() army_die =
 {
+	AddMissionTime(SoldierDeathTime);
 // check for gib
 	if (self.health < -35)
 	{

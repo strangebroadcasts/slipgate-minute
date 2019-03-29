@@ -394,6 +394,8 @@ void() ogre_die =
 		ThrowGib ("progs/gib3.mdl", self.health);
 		return;
 	}
+	
+	AddMissionTime(OgreDeathTime);
 
 	sound (self, CHAN_VOICE, "ogre/ogdth.wav", 1, ATTN_NORM);
 	

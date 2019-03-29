@@ -228,6 +228,7 @@ void() dog_dieb9		=[	$deathb9,	dog_dieb9	] {};
 
 void() dog_die =
 {
+	AddMissionTime(DogDeathTime);
 // check for gib
 	if (self.health < -35)
 	{

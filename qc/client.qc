@@ -955,7 +955,6 @@ void() PlayerPreThink =
 		self.weapon = W_BestWeapon ();
 		W_SetCurrentAmmo ();
 	}
-	
 	UpdateMissionTimer();
 };
 	

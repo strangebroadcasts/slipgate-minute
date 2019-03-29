@@ -340,6 +340,7 @@ void()	wiz_death8	=[	$death8,		wiz_death8	] {};
 
 void() wiz_die =
 {
+	AddMissionTime(WizardDeathTime);
 // check for gib
 	if (self.health < -40)
 	{

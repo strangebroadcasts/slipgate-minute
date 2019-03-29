@@ -99,6 +99,7 @@ void() shalrath_pain =
 
 void() shalrath_die =
 {
+	AddMissionTime(ShalrathDeathTime);
 // check for gib
 	if (self.health < -90)
 	{

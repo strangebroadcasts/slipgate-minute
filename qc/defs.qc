@@ -708,10 +708,9 @@ float BossDeathTime = 5.0;
 float BabyDeathTime = 5.0;
 float OgreDeathTime = 5.0;
 float HellKnightDeathTime = 5.0;
-float FishDeathTime = 5.0;
 float ShalrathDeathTime = 5.0;
 float EnforcerDeathTime = 5.0;
-float OldOneDeathTime = 5.0;
+float FishDeathTime = 5.0;
 
 float MissionTimeMultiplierEasy = 2.0;
 float MissionTimeMultiplierMedium = 1.5;
